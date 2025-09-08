@@ -38,6 +38,7 @@ const About = ({ ref: propRef, func }) => {
     document.body.removeChild(link);
   };
 
+  
   const profileData = {
     name: "Pankaj Bisht",
     title: "Frontend Developer",
