@@ -30,84 +30,124 @@ const Experience = () => {
   const experienceData = [
     {
       id: 1,
-      company: "Revent AI",
-      location: "Remote",
-      companyStartDate: "2023-10-01",
-      companyEndDate: null, // null means still working here
+      company: "Staqu Technologies",
+      location: "Gurugram",
+      companyStartDate: "Nov - 2022",
+      companyEndDate: "May -2025", // null means still working here
       roles: [
         {
-          title: "Senior Frontend Developer",
-          startDate: "2024-05-01",
-          endDate: null, // current role
-          type: "Promotion",
+          title: "Frontend Software Developer",
+          startDate: "Nov - 2022",
+          endDate: "May -2025", // current role
+          // type: "Promotion",
           highlights: [
             {
-              title: "Leadership & Ownership",
-              description: "Promoted for taking ownership of complex features and efficiently resolving bugs across multiple applications",
-              icon: "👑"
+              title: "Product Development",
+              description: "Actively contributed to improvements, optimizations, and new feature development in JARVIS, a flagship product of Staqu",
+              icon: "💡"
             },
             {
-              title: "Advanced Integrations",
-              description: "Integrated Doc-to-PPT, Prompt-to-PPT features and created in-app guided tours using Joyride",
-              icon: "🚀"
+              title: "Conversational Analytics",
+              description: "Developed JARVIS GPT, a conversational UI enabling users to query analytics data in natural language and get real-time insights, boosting revenue by 14%",
+              icon: "🧠"
+            },
+            {
+              title: "Cross-Functional Collaboration",
+              description: "Collaborated with designers and implemented features across product modules for retail analytics and security surveillance use cases",
+              icon: "🤝"
             },
             {
               title: "Performance Optimization",
-              description: "Led performance improvements and bug resolution across React, Vue, and Next.js applications",
+              description: "Revamped a critical JARVIS module, reducing load time by 23% using dynamic imports, React lazy loading, and efficient asset management",
               icon: "⚡"
             }
           ]
+          
         },
-        {
-          title: "Junior Frontend Developer",
-          startDate: "2023-10-01",
-          endDate: "2024-05-01",
-          type: "Initial Role",
-          highlights: [
-            {
-              title: "Presentation Canvas Editor",
-              description: "Created complete presentation canvas editor from scratch using Fabric.js in React application",
-              icon: "🎨"
-            },
-            {
-              title: "Multi-Framework Development",
-              description: "Built applications across React TypeScript, Vue TypeScript, and Next.js with different tech stacks",
-              icon: "🛠️"
-            },
-            {
-              title: "Full-Stack Integration",
-              description: "Developed Node.js + Express.js APIs for PowerPoint XML to JSON conversion and export functionality",
-              icon: "🔗"
-            }
-          ]
-        }
+        // {
+        //   title: "Software Developer",
+        //   startDate: "May - 2022 ",
+        //   endDate: "Sep - 2022",
+        //   // type: "Initial Role",
+        //   highlights: [
+        //     {
+        //       title: "Global Product Development",
+        //       description: "Worked with one of India's Unicorns in the automotive space on their Yard Management System for India, UAE, and Thailand",
+        //       icon: "🌍"
+        //     },
+        //     {
+        //       title: "Market Expansion",
+        //       description: "Contributed to global growth by building and launching the product in Indonesia and UAE, increasing revenue and sales",
+        //       icon: "📈"
+        //     },
+        //     {
+        //       title: "Operational Efficiency",
+        //       description: "Developed a sales panel that streamlined processes and improved internal operating efficiency",
+        //       icon: "⚙️"
+        //     },
+        //     {
+        //       title: "Team Collaboration",
+        //       description: "Collaborated with designers and backend developers to build, test, and enhance product modules",
+        //       icon: "🤝"
+        //     },
+        //     {
+        //       title: "Tech Stack",
+        //       description: "HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React.js, Redux Toolkit",
+        //       icon: "💻"
+        //     }
+        //   ]
+          
+        // }
       ],
       technologies: {
-        frontend: ['React', 'Vue.js', 'Next.js', 'TypeScript', 'Fabric.js'],
+        frontend: ['React',  "JavaScript"],
         styling: ['MUI', 'SCSS', 'Responsive Design'],
-        state: ['Redux Toolkit', 'Pinia Store'],
+        state: ['Redux Toolkit'],
         backend: ['Node.js', 'Express.js', 'API Development'],
-        tools: ['PowerPoint Integration', 'SEO Optimization', 'reCAPTCHA', 'Joyride']
+        // tools: ['PowerPoint Integration', 'SEO Optimization', 'reCAPTCHA', 'Joyride']
       }
+    },
+    {
+      id: 2,
+      company: "Solidity Technologies",
+      location: "New Delhi",
+      companyStartDate: "May - 2022",
+      companyEndDate: "Oct -2022", // null means still working here
+      roles: [     {
+        title: "Software Developer",
+        startDate: "May - 2022 ",
+        endDate: "Oct - 2022",
+        // type: "Initial Role",
+        highlights: [
+          {
+            title: "Global Product Development",
+            description: "Worked with one of India's Unicorns in the automotive space on their Yard Management System for India, UAE, and Thailand",
+            icon: "🌍"
+          },
+          {
+            title: "Market Expansion",
+            description: "Contributed to global growth by building and launching the product in Indonesia and UAE, increasing revenue and sales",
+            icon: "📈"
+          },
+          {
+            title: "Operational Efficiency",
+            description: "Developed a sales panel that streamlined processes and improved internal operating efficiency",
+            icon: "⚙️"
+          },
+          {
+            title: "Team Collaboration",
+            description: "Collaborated with designers and backend developers to build, test, and enhance product modules",
+            icon: "🤝"
+          },
+          {
+            title: "Tech Stack",
+            description: "HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React.js, Redux Toolkit",
+            icon: "💻"
+          }
+        ]
+        
+      }]
     }
-    // Easy to add new companies here:
-    // {
-    //   id: 2,
-    //   company: "New Company",
-    //   location: "Location",
-    //   companyStartDate: "2025-01-01",
-    //   companyEndDate: null,
-    //   roles: [
-    //     {
-    //       title: "New Role",
-    //       startDate: "2025-01-01",
-    //       endDate: null,
-    //       type: "New Position",
-    //       highlights: [...]
-    //     }
-    //   ],
-    //   technologies: {...}
-    // }
   ];
 
   // Utility functions for date calculations
@@ -220,17 +260,17 @@ const Experience = () => {
           {/* Experience Summary */}
           <div className="experience-summary">
             <div className="summary-card">
-              <div className="summary-value">{calculateTotalExperience()}</div>
+              <div className="summary-value">3 years 1 month</div>
               <div className="summary-label">Total Experience</div>
             </div>
             <div className="summary-card">
-              <div className="summary-value">{experienceData.length}</div>
+              <div className="summary-value">2</div>
               <div className="summary-label">Companies</div>
             </div>
-            <div className="summary-card">
+            {/* <div className="summary-card">
               <div className="summary-value">{getTotalRoles()}</div>
               <div className="summary-label">Roles</div>
-            </div>
+            </div> */}
           </div>
           
           <p className="section-subtitle">
@@ -256,9 +296,9 @@ const Experience = () => {
               <div className="experience-card">
                 <div className="card-header">
                   <div className="role-info">
-                    <div className={`role-badge ${!role.endDate ? 'current' : ''}`}>
+                    {/* <div className={`role-badge ${!role.endDate ? 'current' : ''}`}>
                       {role.type} {!role.endDate && '• Current'}
-                    </div>
+                    </div> */}
                     <h3 className="role-title">{role.title}</h3>
                     <p className="company-info">
                       <span className="company-name">{role.company}</span>
@@ -289,7 +329,7 @@ const Experience = () => {
         </div>
 
         {/* Technical Achievements */}
-        <div className="achievements-section">
+        {/* <div className="achievements-section">
           <h3 className="achievements-title">Key Technical Achievements</h3>
           <div className="achievements-grid">
             <div className="achievement-card">
@@ -314,10 +354,10 @@ const Experience = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Tech Stack */}
-        <div className="tech-stack-section">
+        {/* <div className="tech-stack-section">
           <h3 className="tech-title">Technologies Used</h3>
           <div className="tech-categories">
             {experienceData[0]?.technologies && Object.entries(experienceData[0].technologies).map(([category, technologies]) => (
@@ -333,7 +373,7 @@ const Experience = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

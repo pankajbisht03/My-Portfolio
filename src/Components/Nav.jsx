@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Shivakrishna_Kosari_Resume from ".././files/Shivakrishna-Kosari-Resume.pdf";
+import Pankaj_Bisht_Resume from ".././files/Pankaj_Bisht_Resume.pdf";
 
 const Nav = () => {
   const [isActive, setIsActive] = useState(false);
@@ -29,7 +29,7 @@ const Nav = () => {
 
   const handleDownload = () => {
     // Open Google Drive link
-    window.open("https://drive.google.com/file/d/1s0B8lAYKlVkfFbO-3r6mOl11uSVEBBWD/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1GUAsCvt6dI5x5Yb66lFI0hOSz6WXmzmB/view?usp=sharing", "_blank");
     
     // Create download link (you'll need to replace this with your actual PDF file)
     // const link = document.createElement('a');
@@ -46,7 +46,7 @@ const Nav = () => {
       <nav className={navbg ? "navbar active" : "navbar"} id="nav-menu">
         <div className="navbar-content">
           <div className="logo">
-            <span className="brand-gradient">shivakrishna</span>
+            <span className="brand-gradient">Pankaj Bisht</span>
           </div>
           
           <ul className={`menu ${isActive ? 'active' : ''}`}>
@@ -87,8 +87,8 @@ const Nav = () => {
             </li>
             <li className="resume-item">
               <a 
-                href={Shivakrishna_Kosari_Resume}
-                download="Shivakrishna-Kosari-Resume.pdf"
+                href={Pankaj_Bisht_Resume}
+                download="Pankaj_Bisht_Resume.pdf"
                 id="resume-link-1"
                 className={`nav-link resume-button ${navbg ? 'scrolled' : ''}`} 
                 onClick={handleDownload}

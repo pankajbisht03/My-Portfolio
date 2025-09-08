@@ -17,24 +17,24 @@ const ContactMe = () => {
     {
       id: 'phone',
       title: 'Phone',
-      value: '+91 9440997107',
+      value: '+91 9720183880',
       icon: <BsFillTelephoneFill />,
-      action: () => window.location.href = 'tel:9440997107',
+      action: () => window.location.href = 'tel:9720183880',
       clickable: true
     },
     {
       id: 'location',
       title: 'Location',
-      value: 'Jagtial, Telangana',
+      value: 'Gurugram, Haryana',
       icon: <MdLocationOn />,
       clickable: false
     },
     {
       id: 'email',
       title: 'Email',
-      value: 'shivakrishna.codes@gmail.com',
+      value: 'pankajbishtuk04@gmail.com',
       icon: <HiMail />,
-      action: () => window.location.href = 'mailto:shivakrishna.codes@gmail.com',
+      action: () => window.location.href = 'mailto:pankajbishtuk04@gmail.com',
       clickable: true
     }
   ];
@@ -126,7 +126,7 @@ const ContactMe = () => {
 
           <form 
             className='contact-form' 
-            action="https://formsubmit.co/shivakrishna.codes@gmail.com" 
+            action="https://formsubmit.co/pankajbishtuk04@gmail.com" 
             method="POST"
             onSubmit={handleSubmit}
           >

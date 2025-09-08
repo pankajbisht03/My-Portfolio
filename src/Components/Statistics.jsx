@@ -18,7 +18,7 @@ const Statistics = () => {
       <div className="github-calender-div">
         <div className="calendar-container calendar react-activity-calendar">
           <ReactGithubCalendar
-            username={"shivakrishnak13"}
+            username={"pankajbisht03"}
             style={{ width: "95%", margin: "auto" }}
             // className="calender-git"
             classForValue={(value) => `contribution-level-${value.count}`}
@@ -27,7 +27,7 @@ const Statistics = () => {
 
         </div>
         </div>
-        <div className="git-box">
+        {/* <div className="git-box">
           <div>
             <img className="github-stats-card" id="github-stats-card"
               src="https://github-readme-stats.vercel.app/api?username=shivakrishnak13&count_private=true&theme=vue-dark"
@@ -43,7 +43,7 @@ const Statistics = () => {
               src="https://github-readme-streak-stats.herokuapp.com?user=shivakrishnak13&theme=vue-dark&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
               alt="streakstat" />
           </div>
-        </div>
+        </div> */}
 
 
      

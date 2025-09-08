@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "../Styles/about.css";
-import myphoto from "../Images/myphoto.png";
-import Shivakrishna_Kosari_Resume from "../files/Shivakrishna-Kosari-Resume.pdf";
+import myphoto from "../Images/myphoto.jpg";
+import Pankaj_Bisht_Resume from "../files/Pankaj_Bisht_Resume.pdf";
 
 const About = ({ ref: propRef, func }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,12 +26,12 @@ const About = ({ ref: propRef, func }) => {
 
   const handleDownload = () => {
     // Open Google Drive link
-    window.open("https://drive.google.com/file/d/1s0B8lAYKlVkfFbO-3r6mOl11uSVEBBWD/view?usp=sharing", '_blank');
+    window.open("https://drive.google.com/file/d/1GUAsCvt6dI5x5Yb66lFI0hOSz6WXmzmB/view", '_blank');
     
     // Download local file
     const link = document.createElement('a');
-    link.href = Shivakrishna_Kosari_Resume;
-    link.setAttribute('download', 'Shivakrishna-Kosari-Resume.pdf');
+    link.href = Pankaj_Bisht_Resume;
+    link.setAttribute('download', 'Pankaj_Bisht_Resume.pdf');
     link.setAttribute('id', 'resume-link-2');
     document.body.appendChild(link);
     link.click();
@@ -39,12 +39,12 @@ const About = ({ ref: propRef, func }) => {
   };
 
   const profileData = {
-    name: "Shiva Krishna Kosari",
+    name: "Pankaj Bisht",
     title: "Frontend Developer",
-    experience: "2+ Years",
-    description: "I'm a Frontend Developer with over 2 years of experience building modern, responsive, and user-friendly web applications. My work spans across React, Vue, and Next.js applications, where I've created dynamic dashboards, interactive presentation editors, and SEO-focused websites. Alongside frontend development, I have built Node.js and Express.js APIs for seamless data handling and integrations. Skilled in TypeScript, Redux Toolkit, Pinia, MUI, and SCSS, I enjoy solving UI challenges, optimizing performance, and transforming ideas into scalable digital experiences.",
+    experience: "3+ Years",
+    description: "I'm a passionate frontend developer with over 3 years of experience in building responsive, high-performance web applications using the MERN stack with a strong focus on React.js and clean UI design.I enjoy working on challenging projects that push my skills and help me grow as a developer. From creating intuitive dashboards to optimizing frontend performance, I love turning ideas into interactive, user-friendly interfaces.",
     stats: [
-      { number: "2+", label: "Years Experience" },
+      { number: "3+", label: "Years Experience" },
       { number: "10+", label: "Projects Completed" },
       { number: "5+", label: "Technologies" }
     ]
@@ -69,7 +69,7 @@ const About = ({ ref: propRef, func }) => {
             <img 
               className="profile-image home-img" 
               src={myphoto} 
-              alt="Shiva Krishna Kosari - Frontend Developer"
+              alt="Pankaj Bisht - Frontend Developer"
               loading="lazy"
             />
           </div>

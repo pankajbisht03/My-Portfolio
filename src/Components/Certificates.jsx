@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import "../Styles/certificates.css";
 
 // Import your certificate images
-import promptEngineerCert from "../Images/certificates/prompt-engineer-cert.jpg"; // Add your image path
 import fullStackCert from "../Images/certificates/fullstack-cert.jpg"; // Add your image path
 
 const Certificates = () => {
@@ -31,18 +30,6 @@ const Certificates = () => {
   const certificatesData = [
     {
       id: 1,
-      name: "Certified Prompt Engineer",
-      issuer: "Masai School",
-      image: promptEngineerCert,
-      badge: "AI & Machine Learning",
-      badgeIcon: "fas fa-robot",
-      description: "Comprehensive certification in Prompt Engineering techniques, covering advanced AI interaction methods, rapid learning strategies, and integration of generative AI capabilities into web development projects.",
-      skills: ["Prompt Engineering", "Generative AI", "ChatGPT", "AI Integration", "Rapid Learning"],
-      verificationUrl: null, // No verification link available
-      type: "Professional Certification"
-    },
-    {
-      id: 2,
       name: "Full Stack Web Development",
       issuer: "Masai School",
       image: fullStackCert,
@@ -50,7 +37,7 @@ const Certificates = () => {
       badgeIcon: "fas fa-code",
       description: "Intensive full-stack web development program covering modern frontend and backend technologies, database management, and deployment strategies with hands-on project experience.",
       skills: ["React", "Node.js", "JavaScript", "MongoDB", "Express.js", "Full Stack Development"],
-      verificationUrl: "https://certs.masaischool.com/certificate/masai-fw24-600",
+      verificationUrl: "https://certs.masaischool.com/certificate/masai-fw13-023",
       type: "Bootcamp Completion"
     }
   ];

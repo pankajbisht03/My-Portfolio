@@ -3,14 +3,6 @@ import "../Styles/project.css";
 import { AiFillGithub } from "react-icons/ai";
 import { VscLiveShare } from "react-icons/vsc";
 
-// Import images
-import eduhub from "../Images/eduhub.png";
-import stylespot from "../Images/stylespot image.png";
-import megamart from "../Images/megamart image.png";
-import fashionkart from "../Images/fashion kart.png";
-import fashionverce from "../Images/fashionVerce.png";
-import cartrade from "../Images/cartrade.png";
-
 // Import tech icons
 import htmlimg from "../Images/mini-icons/icons8-html.svg";
 import Cssimg from "../Images/mini-icons/icons8-css.svg";
@@ -18,101 +10,150 @@ import Javascriptimg from "../Images/mini-icons/icons8-javascript.svg";
 import reactimg from "../Images/mini-icons/icons8-react-native.svg";
 import reduximg from "../Images/mini-icons/icons8-redux.svg";
 import chakraui from "../Images/mini-icons/icons8-chakra-ui.svg";
-import angular from "../Images/Angular.svg";
-import mysql from "../Images/MySQL.svg";
-import nodejs from "../Images/icons8-node-js.svg";
-import express from "../Images/icons8-express-js.svg";
-import typescript from "../Images/typescript-logo-svgrepo-com.svg";
+
 
 const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      name: "EduHub",
-      description: "EduHub offers seamless course enrollment, featuring an intuitive instructor dashboard for assignment creation using AI technology. Instructors can also make timely announcements to keep students informed.",
-      image: eduhub,
-      liveUrl: "https://edu-sphere-seven.vercel.app/",
-      githubUrl: "https://github.com/shivakrishnak13/EduSphere",
-      technologies: [
-        { name: "Angular", icon: angular },
-        { name: "Node.js", icon: nodejs },
-        { name: "MySQL", icon: mysql },
-        { name: "Express", icon: express },
-        { name: "TypeScript", icon: typescript }
-      ]
-    },
-    {
-      id: 2,
-      name: "StyleSpot",
-      description: "An eCommerce website that sells a variety of fashion clothing. Built on ReactJS for the frontend and utilizes Redux for state management. The backend is implemented using a JSON server.",
-      image: stylespot,
-      liveUrl: "https://style-spot-dusky.vercel.app/",
-      githubUrl: "https://github.com/shivakrishnak13/stylespot_project",
-      technologies: [
-        { name: "React", icon: reactimg },
-        { name: "Redux", icon: reduximg },
-        { name: "Chakra UI", icon: chakraui },
-        { name: "HTML", icon: htmlimg },
-        { name: "CSS", icon: Cssimg },
-        { name: "JavaScript", icon: Javascriptimg }
-      ]
-    },
-    {
-      id: 3,
-      name: "CarTrade",
-      description: "The Second Hand Car Selling Website is a platform connecting users with dealers for purchasing pre-owned vehicles. It offers an attractive homepage, a comprehensive listing of cars with advanced filtering, and a specialized dealer interface for managing listings.",
-      image: cartrade,
-      liveUrl: "https://cartrade-ten.vercel.app/",
-      githubUrl: "https://github.com/shivakrishnak13/attryb_project",
-      technologies: [
-        { name: "React", icon: reactimg },
-        { name: "Redux", icon: reduximg },
-        { name: "Chakra UI", icon: chakraui },
-        { name: "Express", icon: express },
-        { name: "JavaScript", icon: Javascriptimg }
-      ]
-    },
-    {
-      id: 4,
-      name: "MegaMart",
-      description: "MegaMart is an individual project, a cloned website of Indiamart Shopping, offering users the ability to buy or sell products. The platform is built using React and Chakra UI for the frontend, while the backend is powered by a JSON server.",
-      image: megamart,
-      liveUrl: "https://megamart.vercel.app/",
-      githubUrl: "https://github.com/shivakrishnak13/MegaMart",
-      technologies: [
-        { name: "React", icon: reactimg },
-        { name: "Chakra UI", icon: chakraui },
-        { name: "HTML", icon: htmlimg },
-        { name: "CSS", icon: Cssimg },
-        { name: "JavaScript", icon: Javascriptimg }
-      ]
-    },
-    {
-      id: 5,
-      name: "FashionKart",
-      description: "Fashion Kart is a cloned website of Flipkart, a popular e-commerce platform enabling users to buy and sell products. This collaborative project utilizes HTML, CSS, and JavaScript for the frontend development, while the backend is supported by a JSON server.",
-      image: fashionkart,
-      liveUrl: "https://effortless-lolly-d28d4e.netlify.app/",
-      githubUrl: "https://github.com/sharadParadhi/flipkart-clone",
-      technologies: [
-        { name: "HTML", icon: htmlimg },
-        { name: "CSS", icon: Cssimg },
-        { name: "JavaScript", icon: Javascriptimg }
-      ]
-    },
-    {
-      id: 6,
-      name: "FashionVerce",
-      description: "Fashionverce is an individual project, an ecommerce website specializing in the sale of a wide range of fashion clothing. The platform is built using HTML, CSS, and Javascript, allowing for a visually appealing and interactive user experience.",
-      image: fashionverce,
-      liveUrl: "https://eloquent-cocada-745764.netlify.app/",
-      githubUrl: "https://github.com/shivakrishnak13/FashionVerce-Belk.com",
-      technologies: [
-        { name: "HTML", icon: htmlimg },
-        { name: "CSS", icon: Cssimg },
-        { name: "JavaScript", icon: Javascriptimg }
-      ]
-    }
+      name: 'Ubuy Clone',
+      image: 'https://i.postimg.cc/zf7PFwxD/Screenshot-274.png',
+      description:
+          'Ubuy is a popular cross-border shopping e-commerce company that offers some of the best international brands which you can buy from the website.',
+          liveUrl: 'https://ubuy-alpha.vercel.app/',
+          githubUrl: 'https://github.com/pankajbisht03/Ubuy-1.git',
+          technologies: [
+          
+         
+            { name: "HTML", icon: htmlimg },
+            { name: "CSS", icon: Cssimg },
+            { name: "JavaScript", icon: Javascriptimg },
+       
+          ]
+  },
+  {
+    id: 2,
+    name: 'Netflix GPT',
+    image: 'https://i.postimg.cc/vBCbHyvw/Screenshot-329.png',
+    description:
+        `Netflix GPT is an AI-powered movie recommendation web app that suggests personalized film titles based on user prompts using GPT and TMDB APIs..`,
+        liveUrl: 'https://netflixgpt-8e7e0.web.app/',
+        githubUrl: 'https://github.com/pankajbisht03/NetflixGPT',
+        technologies: [
+          { name: "React", icon: reactimg },
+          { name: "Redux Tool Kit", icon: reduximg },
+          { name: "Tailwind CSS", icon: chakraui },
+          { name: "HTML", icon: htmlimg },
+          { name: "CSS", icon: Cssimg },
+          { name: "JavaScript", icon: Javascriptimg }
+     
+        ]
+},
+{
+  id: 3,
+  name: 'PharmEasy Clone',
+  image: 'https://i.ibb.co/N7W5NGy/Screenshot-240.png',
+  description:
+      `PharmEasy is an Indian healthcare app and ecommerce platform for consumers involved in selling online medicines, diagnostics, telehealth, online doctor consultation services.`,
+      liveUrl: 'https://pharmeasy-2af20pu9m-pankajbisht03.vercel.app/',
+  githubUrl: 'https://github.com/pankajbisht03/PharmEasy.git',
+  technologies: [
+    { name: "React", icon: reactimg },
+    { name: "Redux Tool Kit", icon: reduximg },
+    { name: "Tailwind CSS", icon: chakraui },
+    { name: "HTML", icon: htmlimg },
+    { name: "CSS", icon: Cssimg },
+    { name: "JavaScript", icon: Javascriptimg }
+
+  ]
+},
+    // {
+    //   id: 1,
+    //   name: "EduHub",
+    //   description: "EduHub offers seamless course enrollment, featuring an intuitive instructor dashboard for assignment creation using AI technology. Instructors can also make timely announcements to keep students informed.",
+    //   image: eduhub,
+    //   liveUrl: "https://edu-sphere-seven.vercel.app/",
+    //   githubUrl: "https://github.com/shivakrishnak13/EduSphere",
+    //   technologies: [
+    //     { name: "Angular", icon: angular },
+    //     { name: "Node.js", icon: nodejs },
+    //     { name: "MySQL", icon: mysql },
+    //     { name: "Express", icon: express },
+    //     { name: "TypeScript", icon: typescript }
+    //   ]
+    // },
+    // {
+    //   id: 2,
+    //   name: "StyleSpot",
+    //   description: "An eCommerce website that sells a variety of fashion clothing. Built on ReactJS for the frontend and utilizes Redux for state management. The backend is implemented using a JSON server.",
+    //   image: stylespot,
+    //   liveUrl: "https://style-spot-dusky.vercel.app/",
+    //   githubUrl: "https://github.com/shivakrishnak13/stylespot_project",
+    //   technologies: [
+    //     { name: "React", icon: reactimg },
+    //     { name: "Redux", icon: reduximg },
+    //     { name: "Chakra UI", icon: chakraui },
+    //     { name: "HTML", icon: htmlimg },
+    //     { name: "CSS", icon: Cssimg },
+    //     { name: "JavaScript", icon: Javascriptimg }
+    //   ]
+    // },
+    // {
+    //   id: 3,
+    //   name: "CarTrade",
+    //   description: "The Second Hand Car Selling Website is a platform connecting users with dealers for purchasing pre-owned vehicles. It offers an attractive homepage, a comprehensive listing of cars with advanced filtering, and a specialized dealer interface for managing listings.",
+    //   image: cartrade,
+    //   liveUrl: "https://cartrade-ten.vercel.app/",
+    //   githubUrl: "https://github.com/shivakrishnak13/attryb_project",
+    //   technologies: [
+    //     { name: "React", icon: reactimg },
+    //     { name: "Redux", icon: reduximg },
+    //     { name: "Chakra UI", icon: chakraui },
+    //     { name: "Express", icon: express },
+    //     { name: "JavaScript", icon: Javascriptimg }
+    //   ]
+    // },
+    // {
+    //   id: 4,
+    //   name: "MegaMart",
+    //   description: "MegaMart is an individual project, a cloned website of Indiamart Shopping, offering users the ability to buy or sell products. The platform is built using React and Chakra UI for the frontend, while the backend is powered by a JSON server.",
+    //   image: megamart,
+    //   liveUrl: "https://megamart.vercel.app/",
+    //   githubUrl: "https://github.com/shivakrishnak13/MegaMart",
+    //   technologies: [
+    //     { name: "React", icon: reactimg },
+    //     { name: "Chakra UI", icon: chakraui },
+    //     { name: "HTML", icon: htmlimg },
+    //     { name: "CSS", icon: Cssimg },
+    //     { name: "JavaScript", icon: Javascriptimg }
+    //   ]
+    // },
+    // {
+    //   id: 5,
+    //   name: "FashionKart",
+    //   description: "Fashion Kart is a cloned website of Flipkart, a popular e-commerce platform enabling users to buy and sell products. This collaborative project utilizes HTML, CSS, and JavaScript for the frontend development, while the backend is supported by a JSON server.",
+    //   image: fashionkart,
+    //   liveUrl: "https://effortless-lolly-d28d4e.netlify.app/",
+    //   githubUrl: "https://github.com/sharadParadhi/flipkart-clone",
+    //   technologies: [
+    //     { name: "HTML", icon: htmlimg },
+    //     { name: "CSS", icon: Cssimg },
+    //     { name: "JavaScript", icon: Javascriptimg }
+    //   ]
+    // },
+    // {
+    //   id: 6,
+    //   name: "FashionVerce",
+    //   description: "Fashionverce is an individual project, an ecommerce website specializing in the sale of a wide range of fashion clothing. The platform is built using HTML, CSS, and Javascript, allowing for a visually appealing and interactive user experience.",
+    //   image: fashionverce,
+    //   liveUrl: "https://eloquent-cocada-745764.netlify.app/",
+    //   githubUrl: "https://github.com/shivakrishnak13/FashionVerce-Belk.com",
+    //   technologies: [
+    //     { name: "HTML", icon: htmlimg },
+    //     { name: "CSS", icon: Cssimg },
+    //     { name: "JavaScript", icon: Javascriptimg }
+    //   ]
+    // }
   ];
 
   const handleLinkClick = (url) => {
