@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61210d7f.css",
+    "main.js": "/static/js/main.d96f0398.js",
+    "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
+    "static/media/devloperLogo.svg": "/static/media/devloperLogo.4ccaed63462142b961fad2ff6c869879.svg",
+    "static/media/myphoto.jpg": "/static/media/myphoto.5be5091a4e3a31367319.jpg",
+    "static/media/fullstack-cert.jpg": "/static/media/fullstack-cert.78a2b0e8c51bf54ac152.jpg",
+    "static/media/Pankaj_Bisht_Resume.pdf": "/static/media/Pankaj_Bisht_Resume.0439fe87727a5bea1b5b.pdf",
+    "static/media/MySQL.svg": "/static/media/MySQL.31ad00b59b236f7485d650f738433054.svg",
+    "static/media/vercel-seeklogo.com.svg": "/static/media/vercel-seeklogo.com.e45a29fb833a9cee6001d1cf2527e962.svg",
+    "static/media/python.svg": "/static/media/python.955545708171fabfceae9f1a2fb0d102.svg",
+    "static/media/icons8-node-js.svg": "/static/media/icons8-node-js.436ff3953a68d5c10f48f4fa57530016.svg",
+    "static/media/icons8-react-native.svg": "/static/media/icons8-react-native.21b5daa594e0977b3ac254df4795c98a.svg",
+    "static/media/icons8-redux.svg": "/static/media/icons8-redux.0a4a6ca2be44339bedb69de15f66d243.svg",
+    "static/media/Angular.svg": "/static/media/Angular.526863fceb93af2edd890f8a8aba6589.svg",
+    "static/media/icons8-github (1).svg": "/static/media/icons8-github (1).c566cf35aa8485e32937a0b5838d93ae.svg",
+    "static/media/icons8-express-js.svg": "/static/media/icons8-express-js.7ec48f7d4cfdbe432347f0f71730d6a2.svg",
+    "static/media/typescript-logo-svgrepo-com.svg": "/static/media/typescript-logo-svgrepo-com.7295d67a82e1605752e4457327130a7d.svg",
+    "static/media/icons8-javascript.svg": "/static/media/icons8-javascript.081325c6f229605dce15142ddd948d6d.svg",
+    "static/media/icons8-visual-studio-code-2019.svg": "/static/media/icons8-visual-studio-code-2019.a227f2b476a9693602ccb65ede4ea460.svg",
+    "index.html": "/index.html",
+    "static/media/icons8-css.svg": "/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/icons8-chakra-ui.svg": "/static/media/icons8-chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
+    "static/media/icons8-html.svg": "/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.svg",
+    "main.61210d7f.css.map": "/static/css/main.61210d7f.css.map",
+    "main.d96f0398.js.map": "/static/js/main.d96f0398.js.map",
+    "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61210d7f.css",
+    "static/js/main.d96f0398.js"
+  ]
+}
